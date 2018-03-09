@@ -4,6 +4,7 @@
     "description": "Yii2 WebUploader",
     "require": {
         "yiisoft/yii2-bootstrap": "^2.0",
+        "choate/yii2/": "^2.0",
         "bower-asset/fex-webuploader": "dev-master"
     },
     "license": "BSD-3-Clause",
