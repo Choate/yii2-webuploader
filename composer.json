@@ -5,7 +5,7 @@
     "require": {
         "yiisoft/yii2-bootstrap": "^2.0",
         "choate/yii2-ladda-bootstrap": "^1.0",
-        "bower-asset/fex-webuploader": "@dev"
+        "bower-asset/fex-webuploader": "dev-master"
     },
     "license": "BSD-3-Clause",
     "authors": [
