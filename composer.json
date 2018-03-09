@@ -1,0 +1,22 @@
+{
+    "name": "choate/yii2-webuploader",
+    "type": "library",
+    "description": "Yii2 WebUploader",
+    "require": {
+        "yiisoft/yii2-bootstrap": "^2.0",
+        "bower-asset/fex-webuploader": "dev-master"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Choate",
+            "email": "choate.yao@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "choate\\yii2\\webuploader\\": "src"
+        }
+    }
+}

@@ -1,0 +1,154 @@
+/*!
+ * Jasny Bootstrap v3.1.0 (http://jasny.github.com/bootstrap)
+ * Copyright 2011-2014 Arnold Daniels.
+ * Licensed under Apache-2.0 (https://github.com/jasny/bootstrap/blob/master/LICENSE)
+ */
+
+.webuploader .btn-file {
+    overflow: hidden;
+    position: relative;
+    vertical-align: middle;
+}
+.webuploader .btn-file input, .webuploader .btn-file embed, .webuploader .btn-file object{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-size: 23px;
+  cursor: pointer;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  direction: ltr;
+}
+.webuploader-container div:last-child {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  min-width: 100% !important;
+  min-height: 100% !important;
+  overflow: hidden !important;
+  bottom: auto !important;
+  right: auto !important;
+}
+.webuploader {
+    display: inline-block;
+}
+.webuploader .form-control {
+    padding-top: 7px;
+    padding-bottom: 5px;
+    display: inline-block;
+    margin-bottom: 0px;
+    vertical-align: middle;
+    cursor: text;
+}
+.webuploader .thumbnail {
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 5px;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+}
+.webuploader .thumbnail > img {
+    max-height: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.webuploader .btn {
+    vertical-align: middle;
+}
+.webuploader-exists .webuploader-new,
+.webuploader-new .webuploader-exists,
+.webuploader-new .webuploader-upload,
+.webuploader-upload .webuploader-upload,
+.webuploader-upload .webuploader-new
+{
+  display: none;
+}
+.webuploader-inline .webuploader-controls {
+    display: inline;
+}
+.webuploader-filename {
+    vertical-align: middle;
+    display: inline-block;
+    overflow: hidden;
+}
+.form-control .webuploader-filename {
+    vertical-align: bottom;
+}
+.webuploader.input-group {
+    display: table;
+}
+.webuploader.input-group > * {
+    position: relative;
+    z-index: 2;
+}
+.webuploader.input-group > .btn-file {
+    z-index: 1;
+}
+.webuploader-new .input-group .btn-file,
+.webuploader-new.input-group .btn-file,
+.webuploader-exists .input-group .btn-file,
+.webuploader-exists.input-group .btn-file
+.webuploader-upload .input-group .btn-file,
+.webuploader-upload.input-group .btn-file {
+    border-radius: 0 4px 4px 0;
+}
+.webuploader-new.input-group .btn-file.btn-xs,
+.webuploader-new .input-group .btn-file.btn-xs,
+.webuploader-exists .input-group .btn-file.btn-xs,
+.webuploader-exists.input-group .btn-file.btn-xs,
+.webuploader-upload .input-group .btn-file.btn-xs,
+.webuploader-upload.input-group .btn-file .btn-xs,
+.webuploader-new.input-group .btn-file.btn-sm,
+.webuploader-new .input-group .btn-file.btn-sm,
+.webuploader-exists .input-group .btn-file.btn-sm,
+.webuploader-exists.input-group .btn-file.btn-sm,
+.webuploader-upload .input-group .btn-file.btn-sm,
+.webuploader-upload.input-group .btn-file .btn.sm {
+
+    border-radius: 0 3px 3px 0;
+}
+.webuploader-new.input-group .btn-file.btn-lg,
+.webuploader-new .input-group .btn-file.btn-lg
+.webuploader-exists .input-group .btn-file.btn-lg,
+.webuploader-exists.input-group .btn-file.btn-lg
+.webuploader-upload .input-group .btn-file.btn-lg,
+.webuploader-upload.input-group .btn-file .btn-lg {
+    border-radius: 0 6px 6px 0;
+}
+.form-group.has-warning .webuploader .webuploader-preview {
+    color: #8a6d3b;
+}
+.form-group.has-warning .webuploader .thumbnail {
+    border-color: #faebcc;
+}
+.form-group.has-error .webuploader .webuploader-preview {
+    color: #a94442;
+}
+.form-group.has-error .webuploader .thumbnail {
+    border-color: #ebccd1;
+}
+.form-group.has-success .webuploader .webuploader-preview {
+    color: #3c763d;
+}
+.form-group.has-success .webuploader .thumbnail {
+    border-color: #d6e9c6;
+}
+.webuploader .input-group-addon:not(:first-child) {
+    border-left: 0;
+}
+.webuploader .ladda-button .ladda-progress {
+    max-width: 100% !important;
+}
