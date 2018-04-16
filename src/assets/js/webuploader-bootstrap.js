@@ -157,7 +157,7 @@
         var input = settings.input;
         if (response.status == 200) {
             container.addClass(filterClassName(settings.fileUploadClass)).removeClass(filterClassName(settings.fileExistsClass));
-            input.val(response.data).trigger('change');
+            input.val(typeof response.data === 'object' ? JSON.stringify(response.data) : response.data).trigger('change');
         } else {
             console.log(response);
         }
